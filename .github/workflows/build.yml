@@ -25,13 +25,3 @@ jobs:
         with:
           name: SmartCalcPro-APK
           path: app/build/outputs/apk/debug/app-debug.apk
-```
-
----
-
-## How to create it on GitHub (mobile):
-
-1. Open your repo → tap **"Add file"** → **"Create new file"**
-2. In the filename box type exactly:
-```
-.github/workflows/build.yml
