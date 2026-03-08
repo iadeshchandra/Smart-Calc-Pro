@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Calc Pro</string>
+    <string name="author">by Adesh Chandra</string>
+    <string name="simple_calc">Simple</string>
+    <string name="scientific_calc">Scientific</string>
+    <string name="converter">Converter</string>
+    <string name="history">History</string>
+</resources>

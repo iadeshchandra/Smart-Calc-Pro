@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="32dp"
+            android:paddingBottom="32dp">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧮"
+                android:textSize="52sp"
+                android:gravity="center"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Calc Pro"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Adesh Chandra"
+                android:textSize="13sp"
+                android:textColor="@color/textMuted"
+                android:gravity="center"
+                android:layout_marginTop="4dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All-in-one calculator &amp; converter"
+                android:textSize="14sp"
+                android:textColor="@color/textSecondary"
+                android:gravity="center"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- Simple Calculator Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSimple"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#1E1E3A"
+            android:foreground="?android:attr/selectableItemBackground">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+                <TextView android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:text="🔢"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:background="#2A2A50"
+                    android:padding="8dp"/>
+                <LinearLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simple Calculator"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textPrimary"/>
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Basic math, live preview"
+                        android:textSize="13sp"
+                        android:textColor="@color/textSecondary"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="›"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Scientific Calculator Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardScientific"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#1A2040"
+            android:foreground="?android:attr/selectableItemBackground">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+                <TextView android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:text="🔬"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:background="#1E2855"
+                    android:padding="8dp"/>
+                <LinearLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Scientific Calculator"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textPrimary"/>
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="sin, cos, log, factorial and more"
+                        android:textSize="13sp"
+                        android:textColor="@color/textSecondary"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="›"
+                    android:textSize="28sp"
+                    android:textColor="@color/accentBlue"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Unit Converter Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardConverter"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#1A2E20"
+            android:foreground="?android:attr/selectableItemBackground">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="20dp">
+                <TextView android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:text="⚖️"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:background="#1E3528"
+                    android:padding="8dp"/>
+                <LinearLayout android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Unit Converter"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textPrimary"/>
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Length, Weight, Temp, Volume &amp; 10 more"
+                        android:textSize="13sp"
+                        android:textColor="@color/textSecondary"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="›"
+                    android:textSize="28sp"
+                    android:textColor="@color/accentGreen"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Categories preview -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="#16213E">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📦  14 Converter Categories"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textAccent"
+                    android:layout_marginBottom="10dp"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📏 Length  •  ⚖️ Weight  •  🌡️ Temperature  •  📐 Area\n🧪 Volume  •  🚀 Speed  •  ⏱️ Time  •  💾 Data\n🌬️ Pressure  •  ⚡ Energy  •  🔋 Power  •  📐 Angle\n⛽ Fuel Economy  •  💰 Currency"
+                    android:textSize="12sp"
+                    android:textColor="@color/textSecondary"
+                    android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

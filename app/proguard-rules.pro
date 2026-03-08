@@ -1,0 +1,2 @@
+-keep class com.adeshchandra.smartcalc.** { *; }
+-keepattributes *Annotation*

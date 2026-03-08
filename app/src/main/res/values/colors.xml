@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary purple-blue gradient theme -->
+    <color name="primary">#6C63FF</color>
+    <color name="primaryDark">#4A42D6</color>
+    <color name="primaryLight">#9B95FF</color>
+    <color name="accent">#FF6B6B</color>
+    <color name="accentOrange">#FF9500</color>
+    <color name="accentGreen">#00C896</color>
+    <color name="accentBlue">#00B4FF</color>
+
+    <!-- Background -->
+    <color name="bgDark">#0F0E17</color>
+    <color name="bgCard">#1A1A2E</color>
+    <color name="bgCardLight">#16213E</color>
+    <color name="bgSurface">#0F3460</color>
+
+    <!-- Buttons -->
+    <color name="btnNum">#1E1E3A</color>
+    <color name="btnOp">#2A2A4A</color>
+    <color name="btnEqual">#6C63FF</color>
+    <color name="btnClear">#FF4757</color>
+    <color name="btnFunc">#2E2E55</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0B0CC</color>
+    <color name="textMuted">#6060A0</color>
+    <color name="textAccent">#9B95FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

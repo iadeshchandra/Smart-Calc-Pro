@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartCalc" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/bgDark</item>
+        <item name="android:statusBarColor">@color/bgDark</item>
+        <item name="android:navigationBarColor">@color/bgDark</item>
+    </style>
+
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="rippleColor">@color/primaryLight</item>
+    </style>
+
+    <style name="CalcButtonNum" parent="CalcButton">
+        <item name="backgroundTint">@color/btnNum</item>
+    </style>
+
+    <style name="CalcButtonOp" parent="CalcButton">
+        <item name="backgroundTint">@color/btnOp</item>
+        <item name="android:textColor">@color/primaryLight</item>
+    </style>
+
+    <style name="CalcButtonEqual" parent="CalcButton">
+        <item name="backgroundTint">@color/btnEqual</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CalcButtonClear" parent="CalcButton">
+        <item name="backgroundTint">@color/btnClear</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CalcButtonFunc" parent="CalcButton">
+        <item name="backgroundTint">@color/btnFunc</item>
+        <item name="android:textColor">@color/accentGreen</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SciButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/accentGreen</item>
+        <item name="backgroundTint">@color/btnFunc</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+</resources>
