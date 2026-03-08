@@ -68,7 +68,6 @@
                     <EditText android:id="@+id/etInput"
                         android:layout_width="match_parent" android:layout_height="64dp"
                         android:hint="Enter value..."
-                        android:hintTextColor="@color/textMuted"
                         android:textColor="@color/textPrimary"
                         android:textSize="28sp"
                         android:inputType="numberDecimal|numberSigned"
